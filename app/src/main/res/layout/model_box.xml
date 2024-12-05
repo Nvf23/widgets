@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="50"
+        android:backgroundTint="#FF5722"
+        android:text="@string/fifty_percent"
+        app:cornerRadius="0sp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="30"
+        android:backgroundTint="#FF9800"
+        android:text="@string/thirty_percent"
+        app:cornerRadius="0sp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="20"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/twenty_percent"
+        app:cornerRadius="0sp" />
+</LinearLayout>

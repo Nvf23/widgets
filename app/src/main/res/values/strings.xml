@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">widgets</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="activity_4">Activity 4</string>
+    <string name="activity_5">Activity 5</string>
+    <string name="url">URL:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_special_rules">No special rules:</string>
+    <string name="email_address">Email address:</string>
+    <string name="signed_decimal_number">Signed decimal number:</string>
+    <string name="date">Date:</string>
+    <string name="multi_line_text">Multi-line text:</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="fifty_percent">Fifty Percent</string>
+    <string name="thirty_percent">Thirty Percent</string>
+    <string name="twenty_percent">Twenty Percent</string>
+    <string name="i_am_small">I am small</string>
+    <string name="i_am_big">I AM BIG</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+        <TextView
+            android:text="@string/no_special_rules"
+            />
+        <EditText android:autofillHints=""
+            tools:ignore="LabelFor" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/email_address"
+            />
+        <EditText
+            android:inputType="text|textEmailAddress"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/signed_decimal_number"
+            />
+        <EditText
+            android:inputType="number|numberSigned|numberDecimal"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/date"
+            />
+        <EditText
+            android:inputType="date"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/multi_line_text"
+            />
+        <EditText
+            android:inputType="text|textMultiLine|textAutoCorrect"
+            android:minLines="3"
+            android:gravity="top"
+            />
+    </TableRow>
+</TableLayout>
