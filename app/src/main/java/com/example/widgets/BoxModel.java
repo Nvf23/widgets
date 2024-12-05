@@ -7,6 +7,6 @@ public class BoxModel extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.model_box); // Asegúrate de que el nombre coincide con el XML
+        setContentView(R.layout.model_box);
     }
 }

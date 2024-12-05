@@ -7,6 +7,6 @@ public class Imput extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.imput); // Asegúrate de que el nombre coincide con el XML
+        setContentView(R.layout.imput);
     }
 }
